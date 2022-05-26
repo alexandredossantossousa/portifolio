@@ -1,0 +1,30 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+:root{
+    --gradiente:background-image: linear-gradient(to right, #4B086d, #ACC0FE);
+    --roxoEscuro:#330066;
+    --roxo:#522d80;
+    --roxoMedio:#7851a9;
+    --roxoLuz:#ae87d0;
+    --roxoClaro:#c9a0dc;
+    --branco:#f2f2f2;
+    --cinzaEscuro:#212121;
+    --cinza:#303030;
+    --cinzaClaro:#424242;
+}
+/* Uso geral */
+body{
+    background-color: var(--cinzaEscuro);
+    color: var(--branco);
+}
+
+
+
+
+
+/* Gradiente */
+.gradiente{
+    background-image: linear-gradient(to right, #4B086d, #ACC0FE);
+}
