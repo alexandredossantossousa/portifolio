@@ -16,11 +16,15 @@
 }
 /* Uso geral */
 body{
-    background-color: var(--cinzaEscuro);
+    background-color: var(--cinza);
     color: var(--branco);
 }
 
 
+/* About me */
+.aboutMe .col{
+    background-color: var(--cinzaEscuro);
+}
 
 
 
@@ -28,3 +32,4 @@ body{
 .gradiente{
     background-image: linear-gradient(to right, #4B086d, #ACC0FE);
 }
+
