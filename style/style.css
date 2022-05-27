@@ -6,9 +6,11 @@
     --gradiente:background-image: linear-gradient(to right, #4B086d, #ACC0FE);
     --roxoEscuro:#330066;
     --roxo:#522d80;
+    --roxo2:#8724F9;
     --roxoMedio:#7851a9;
     --roxoLuz:#ae87d0;
     --roxoClaro:#c9a0dc;
+    --rosa:#CD00FD;
     --branco:#f2f2f2;
     --cinzaEscuro:#212121;
     --cinza:#303030;
@@ -28,6 +30,9 @@ body{
 .aboutMe img{
     border-radius: 200%;
     margin: auto;
+    border: 4px solid var(--rosa);
+    max-width: 300px;
+    max-height: 300px;
 }
 .aboutMe .col{
     background-color: var(--cinzaEscuro);
@@ -40,7 +45,18 @@ body{
     padding: 20px;
     max-width: 500px;
     text-align: center;
-    background-color: rebeccapurple;
+}
+#fotoPerfil p{
+    font-size: 40px;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--roxo2);
+    
+    font-weight: 700;
+}
+#fotoPerfil span{
+    color: var(--rosa);
+    font-weight: 700;
 }
 #textoDoPerfil{
     padding: 20px;
