@@ -22,14 +22,29 @@ body{
 
 
 /* About me */
+.aboutMe{
+    margin: auto;   
+}
+.aboutMe img{
+    border-radius: 200%;
+    margin: auto;
+}
 .aboutMe .col{
     background-color: var(--cinzaEscuro);
 }
-
-
+.aboutMe p{
+    max-width: 300px;
+    margin: auto;
+}
 
 /* Gradiente */
 .gradiente{
     background-image: linear-gradient(to right, #4B086d, #ACC0FE);
 }
 
+
+/* Classes globais */
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
