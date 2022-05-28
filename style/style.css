@@ -18,10 +18,13 @@
 }
 /* Uso geral */
 body{
-    background-color: var(--cinza);
+    background-color: var(--cinzaEscuro);
     color: var(--branco);
-} margin: 50px;
 }
+section{
+    padding: 20px;
+}
+
 
 /* About me */
 .aboutMe{
@@ -35,7 +38,6 @@ body{
     max-height: 300px;
 }
 .aboutMe .col{
-    background-color: var(--cinzaEscuro);
 }
 .aboutMe p{
     margin: auto;
@@ -61,6 +63,23 @@ body{
 #textoDoPerfil{
     padding: 20px;
 }
+
+
+
+/* Education */
+#education{
+    background-color: var(--cinza);
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+/* Experience */
+
+
+
+/* skills */
+
+/* Languages */
 /* Gradiente */
 .gradiente{
     background-image: linear-gradient(to right, #4B086d, #ACC0FE);
@@ -75,10 +94,12 @@ body{
 .red{
     background-color: red;
     border: 2px solid;
+    padding: 50px;
 }
 .orange{
     background-color: orange;
     border: 2px solid;
+    padding: 20px;
 }
 .cubo{
     background-color: black;
