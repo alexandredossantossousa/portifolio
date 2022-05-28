@@ -7,6 +7,7 @@
     --roxoEscuro:#330066;
     --roxo:#522d80;
     --roxo2:#8724F9;
+    --teste:#9933ff;
     --roxoMedio:#7851a9;
     --roxoLuz:#ae87d0;
     --roxoClaro:#c9a0dc;
@@ -66,7 +67,7 @@ h2{
     font-weight: 700;
 }
 #textoDoPerfil{
-    background-color: var(--roxo2);
+    background-color: var(--teste);
     max-height: 200px;
     border-radius: 10px;
     padding: 20px;
