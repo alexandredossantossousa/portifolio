@@ -18,11 +18,16 @@
 }
 /* Uso geral */
 body{
+    margin: 20px;
     background-color: var(--cinzaEscuro);
     color: var(--branco);
 }
 section{
     padding: 20px;
+}
+h2{
+    font-weight: 700;
+    color: white;
 }
 
 
@@ -61,6 +66,9 @@ section{
     font-weight: 700;
 }
 #textoDoPerfil{
+    background-color: var(--roxo2);
+    max-height: 200px;
+    border-radius: 10px;
     padding: 20px;
 }
 
