@@ -84,7 +84,9 @@ h2{
 }
 
 /* Experience */
-
+#experience div{
+    border: 2px solid red;
+}
 
 
 /* skills */
@@ -100,6 +102,9 @@ h2{
 .flex{
     display: flex;
     flex-wrap: wrap;
+}
+.inline{
+    display: inline;
 }
 .red{
     background-color: red;
