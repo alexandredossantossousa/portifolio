@@ -24,7 +24,7 @@ body{
     color: var(--branco);
 }
 section{
-    padding: 20px;
+    padding: 10px;
 }
 h2{
     font-weight: 700;
@@ -34,6 +34,7 @@ h2{
 
 /* About me */
 .aboutMe{
+    padding: 10px;
     margin: auto;   
 }
 .aboutMe img{
@@ -68,7 +69,7 @@ h2{
 }
 #textoDoPerfil{
     background-color: var(--teste);
-    max-height: 200px;
+    max-height: 250px;
     border-radius: 10px;
     padding: 20px;
 }
