@@ -22,7 +22,6 @@ body{
     color: var(--branco);
 }
 
-
 /* About me */
 .aboutMe{
     margin: auto;   
@@ -71,4 +70,17 @@ body{
 .flex{
     display: flex;
     flex-wrap: wrap;
+}
+.red{
+    background-color: red;
+}
+.orange{
+    background-color: orange;
+}
+.cubo{
+    background-color: black;
+    padding: 50px;
+    max-width: 50px;max-height: 50px;
+    margin: 0px 20px;
+    color: white;
 }
