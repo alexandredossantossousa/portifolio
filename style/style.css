@@ -20,6 +20,7 @@
 body{
     background-color: var(--cinza);
     color: var(--branco);
+} margin: 50px;
 }
 
 /* About me */
@@ -73,9 +74,11 @@ body{
 }
 .red{
     background-color: red;
+    border: 2px solid;
 }
 .orange{
     background-color: orange;
+    border: 2px solid;
 }
 .cubo{
     background-color: black;
