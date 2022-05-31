@@ -69,12 +69,32 @@ h2{
 }
 #textoDoPerfil{
     background-color: var(--teste);
-    max-height: 250px;
+    max-height: 310px;
     border-radius: 10px;
     padding: 20px;
 }
+.icones{
+    text-align: center;
+    margin-top:40px;
+    font-size: 40px;
+}
+.icones i{
+    cursor: pointer;
+    border: 1px solid;
+    padding: 3px;
+    border-radius: 5px;
+}
+.icones a{
+    color: white;
+}
+.icones i:hover{
+    transition: 0.5s;
+    color: var(--teste);
+    background-color: white;
+    padding: 3px;
+    border-radius: 5px;
 
-
+}
 
 /* Education */
 #education{
@@ -82,7 +102,17 @@ h2{
     border-radius: 5px;
     margin-bottom: 30px;
 }
-
+/* Bloco 2 */
+#bloco2{
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+#bloco2 div{
+    background-color: var(--cinza);
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 350px;
+}
 /* Experience */
 #experience div{
     border: 2px solid red;
@@ -102,6 +132,14 @@ h2{
 .flex{
     display: flex;
     flex-wrap: wrap;
+}
+.floatRight{
+    margin-left: auto;;
+    float: right;
+}
+.floatLeft{
+    margin-right: auto;
+    float: left;
 }
 .inline{
     display: inline;
