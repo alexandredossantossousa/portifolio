@@ -148,6 +148,13 @@ h2{
 }
 
 
+/* Hobbies */
+#hobbies span{
+    text-align: center;
+    border: 1px solid;
+    
+}
+
 
 /* Experience */
 #experience div{
@@ -157,7 +164,8 @@ h2{
 
 /* skills */
 
-/* c */
+
+
 /* Gradiente */
 .gradiente{
     background-image: linear-gradient(to right, #4B086d, #ACC0FE);
