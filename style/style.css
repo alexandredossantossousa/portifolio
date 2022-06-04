@@ -8,6 +8,8 @@
     --roxo:#522d80;
     --roxo2:#8724F9;
     --teste:#9933ff;
+    --teste2:#741FF5;
+    --teste3:#C5FC30;
     --roxoMedio:#7851a9;
     --roxoLuz:#ae87d0;
     --roxoClaro:#c9a0dc;
@@ -29,7 +31,7 @@ section{
 h2{
     font-weight: 700;
     color: white;
-    color: var(--teste);
+    color: var(--teste3);
 }
 
 
