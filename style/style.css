@@ -29,6 +29,7 @@ section{
 h2{
     font-weight: 700;
     color: white;
+    color: var(--teste);
 }
 
 
@@ -77,6 +78,9 @@ h2{
     border-radius: 10px;
     padding: 20px;
 }
+#textoDoPerfil h2{
+    color: var(--branco);
+}
 .icones{
     text-align: center;
     margin-top:40px;
@@ -109,6 +113,12 @@ h2{
     height: 300px;
     margin-bottom: 20px;
 }
+#education h2{
+    text-align: center;
+}
+
+
+
 /* Bloco 2 */
 #bloco2{
     border-radius: 5px;
@@ -147,7 +157,7 @@ h2{
 
 /* skills */
 
-/* Languages */
+/* c */
 /* Gradiente */
 .gradiente{
     background-image: linear-gradient(to right, #4B086d, #ACC0FE);
