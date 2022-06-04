@@ -83,21 +83,21 @@ h2{
 #textoDoPerfil h2{
     color: var(--branco);
 }
-.icones{
+.contatos{
     text-align: center;
     margin-top:40px;
     font-size: 40px;
 }
-.icones i{
+.contatos i{
     cursor: pointer;
     border: 1px solid;
     padding: 3px;
     border-radius: 5px;
 }
-.icones a{
+.contatos a{
     color: white;
 }
-.icones i:hover{
+.contatos i:hover{
     transition: 0.2s;
     color: var(--teste);
     background-color: white;
