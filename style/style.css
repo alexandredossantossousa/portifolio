@@ -35,7 +35,7 @@ h2{
 /* About me */
 .aboutMe{
     padding: 10px;
-    margin: auto;   
+    margin: auto;
 }
 .aboutMe img{
     border-radius: 200%;
@@ -55,6 +55,9 @@ h2{
     max-width: 500px;
     text-align: center;
 }
+#fotoPerfil img{
+    box-shadow: -1px 1px 30px 1px rgb(22, 22, 22);
+}
 #fotoPerfil p{
     font-size: 40px;
     font-weight: 100;
@@ -68,6 +71,7 @@ h2{
     font-weight: 700;
 }
 #textoDoPerfil{
+    box-shadow: -1px 1px 30px 1px rgb(22, 22, 22);
     background-color: var(--teste);
     max-height: 310px;
     border-radius: 10px;
