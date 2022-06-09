@@ -16,7 +16,8 @@
     --rosa:#CD00FD;
     --branco:#f2f2f2;
     --cinzaEscuro:#212121;
-    --cinza:#303030;
+    --cinza:#30303060;
+    --cinza2:#303030;
     --cinzaClaro:#424242;
 
     /* Àrea de teste */
@@ -31,7 +32,7 @@ body{
     height: auto;
 }
 main{
-    background-image: linear-gradient(to bottom, #000008,  #1f132d, #250456);
+    background-image: linear-gradient(to bottom, #000008,  #1f132d);
     margin-top: -20px;
     height: auto;
 }
@@ -137,7 +138,7 @@ h2{
 /* Bloco 2 */
 #bloco2{
     border-radius: 5px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 #bloco2 div{
     box-shadow: -1px 1px 15px 1px rgb(22, 22, 22);
