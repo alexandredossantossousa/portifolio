@@ -18,11 +18,22 @@
     --cinzaEscuro:#212121;
     --cinza:#303030;
     --cinzaClaro:#424242;
+
+    /* Àrea de teste */
+    --roxotop:#000008;
+    --roxoMeio:#;
+    --roxoFim:#;
 }
 /* Uso geral */
 body{
     background-color: var(--cinzaEscuro);
     color: var(--branco);
+    height: auto;
+}
+main{
+    background-image: linear-gradient(to bottom, #000008,  #1f132d, #250456);
+    margin-top: -20px;
+    height: auto;
 }
 section{
     padding: 10px;
@@ -76,8 +87,10 @@ h2{
 #textoDoPerfil{
     box-shadow: -1px 1px 15px 1px rgb(22, 22, 22);
     background-color: var(--teste);
-    max-height: 310px;
+    max-height: 400px;
     border-radius: 10px;
+    margin: auto;
+    max-width: 600px;
     padding: 20px;
 }
 #textoDoPerfil h2{
