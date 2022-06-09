@@ -21,7 +21,6 @@
 }
 /* Uso geral */
 body{
-    margin: 20px;
     background-color: var(--cinzaEscuro);
     color: var(--branco);
 }
@@ -37,7 +36,8 @@ h2{
 
 /* About me */
 .aboutMe{
-    padding: 10px;
+    background-image: url(../img/img2.jpg);
+    padding: 30px;
     margin: auto;
 }
 .aboutMe img{
@@ -111,8 +111,8 @@ h2{
     background-color: var(--cinza);
     border-radius: 20px;
     margin: auto;
-    max-width: 1070px;
-    height: 300px;
+    margin: 20px;
+    height: 400px;
     margin-bottom: 20px;
 }
 #education h2{
@@ -131,7 +131,9 @@ h2{
     background-color: var(--cinza);
     padding: 15px;
     border-radius: 20px;
-    max-width: 520px;
+    max-width: 600px;
+    margin: 20px;
+    margin: auto;
     height: 500px;
 }
 
@@ -145,7 +147,9 @@ h2{
     background-color: var(--cinza);
     padding: 15px;
     border-radius: 20px;
-    max-width: 520px;
+    max-width: 600px;
+    margin: 20px;
+    margin: auto;
     height: 300px;
 }
 
