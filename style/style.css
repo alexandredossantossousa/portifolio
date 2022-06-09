@@ -58,7 +58,6 @@ h2{
 /* About me */
 .aboutMe{
     max-width: 1300px;
-    min-width: 1300px;
     background-image: url(../img/img2.jpg);
     padding: 30px;
     margin: auto;
@@ -137,7 +136,6 @@ h2{
     margin: auto;
     margin: 20px;
     max-width: 1300px;
-    min-width: 1200px;
     height: 400px;
     margin-bottom: 20px;
 }
@@ -157,7 +155,6 @@ h2{
     padding: 15px;
     border-radius: 20px;
     max-width: 600px;
-    min-width: 600px;
     margin: 20px;
     margin: auto;
     height: 500px;
@@ -173,7 +170,6 @@ h2{
     padding: 15px;
     border-radius: 20px;
     max-width: 600px;
-    min-width: 600px;
     margin: 20px;
     margin: auto;
     height: 300px;
