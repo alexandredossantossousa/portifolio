@@ -30,13 +30,22 @@ body{
     background-color: var(--cinzaEscuro);
     color: var(--branco);
     height: auto;
+    margin: auto;
+    max-width: 1300px;
+}
+header{
+    margin: auto;
+    max-width: 1300px;
 }
 main{
     background-image: linear-gradient(to bottom, #000008,  #1f132d);
     margin-top: -20px;
+    max-width: 1300px;
     height: auto;
 }
 section{
+    margin: auto;
+    max-width: 1300px;
     padding: 10px;
 }
 h2{
@@ -48,6 +57,8 @@ h2{
 
 /* About me */
 .aboutMe{
+    max-width: 1300px;
+    min-width: 1300px;
     background-image: url(../img/img2.jpg);
     padding: 30px;
     margin: auto;
@@ -125,6 +136,8 @@ h2{
     border-radius: 20px;
     margin: auto;
     margin: 20px;
+    max-width: 1300px;
+    min-width: 1200px;
     height: 400px;
     margin-bottom: 20px;
 }
@@ -144,6 +157,7 @@ h2{
     padding: 15px;
     border-radius: 20px;
     max-width: 600px;
+    min-width: 600px;
     margin: 20px;
     margin: auto;
     height: 500px;
@@ -159,6 +173,7 @@ h2{
     padding: 15px;
     border-radius: 20px;
     max-width: 600px;
+    min-width: 600px;
     margin: 20px;
     margin: auto;
     height: 300px;
