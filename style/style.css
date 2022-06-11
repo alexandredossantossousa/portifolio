@@ -183,8 +183,19 @@ h2{
 /* Hobbies */
 #hobbies span{
     text-align: center;
-    border: 1px solid;
-    
+    height: 100px;
+}
+#hobbies i{
+    font-size: 40px;
+}
+#hobbies p{
+    margin: 10px;
+    font-size: 15px;
+    font-weight: 700;
+}
+#hobbies .row{
+    background: none;
+    height: 100px;
 }
 
 
@@ -236,4 +247,9 @@ h2{
     max-width: 50px;max-height: 50px;
     margin: 0px 20px;
     color: white;
+}
+
+footer{
+    text-align: center;
+    font-size: 20px;
 }
