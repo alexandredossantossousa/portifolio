@@ -1,0 +1,31 @@
+@import "paletas";
+
+
+// media geral
+body{
+    background-color: $cinzaEscuro;
+    
+}
+
+
+
+
+// Media para web
+@media (min-width: 800px) and (max-width:2522px) {
+    
+}
+
+
+// Media tablet
+@media (max-width: 798px) {
+    
+}
+
+
+// Media para mobile
+@media (max-width: 415px) {
+    
+}
+
+
+
