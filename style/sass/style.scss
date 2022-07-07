@@ -4,7 +4,51 @@
 // media geral
 body{
     background-color: $cinzaEscuro;
-    
+    display: grid;
+    grid-template-rows: 10vh 100vh 10vh;
+    header{
+        position: fixed;
+        margin: auto;
+        min-width: 1300px;
+        nav{
+            margin: auto;
+            max-width: 1200px;
+            width: 100%;
+            ul{
+                display: flex;
+                list-style: none;
+                li{
+                    padding: 10px;
+                    a{
+                        color: white;
+                        text-decoration: none;
+                        margin-left: 200px;
+                        padding: 10px;
+                        font-size: 20px;
+                        &:hover{
+                            background-color: $roxoEscuro400;
+                            
+                            border-radius: 5px;
+                            color: white;
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+    main{
+        section{
+            background-color: $cinza;
+            max-width: 1000px;
+            padding: 20px;
+            width: 100%;
+            margin: auto;
+            margin-top: 100px;
+        }
+    }
+    footer{
+    }
 }
 
 

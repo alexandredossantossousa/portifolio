@@ -1,5 +1,44 @@
 body {
   background-color: #262626;
+  display: grid;
+  grid-template-rows: 10vh 100vh 10vh;
+}
+body header {
+  position: fixed;
+  margin: auto;
+  min-width: 1300px;
+}
+body header nav {
+  margin: auto;
+  max-width: 1200px;
+  width: 100%;
+}
+body header nav ul {
+  display: flex;
+  list-style: none;
+}
+body header nav ul li {
+  padding: 10px;
+}
+body header nav ul li a {
+  color: white;
+  text-decoration: none;
+  margin-left: 200px;
+  padding: 10px;
+  font-size: 20px;
+}
+body header nav ul li a:hover {
+  background-color: #651fff;
+  border-radius: 5px;
+  color: white;
+}
+body main section {
+  background-color: #303030;
+  max-width: 1000px;
+  padding: 20px;
+  width: 100%;
+  margin: auto;
+  margin-top: 100px;
 }
 
 /*# sourceMappingURL=style.css.map */
