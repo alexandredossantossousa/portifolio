@@ -6,21 +6,26 @@ body {
   grid-template-rows: 10vh 100vh 10vh;
 }
 body header {
-  background-image: url(../../img/img1.jpeg);
+  background-image: url(../../img/img2.jpg);
   width: 100%;
   height: 400px;
 }
 body header nav {
   position: fixed;
   margin: auto;
+  max-width: 1300px;
   width: 100%;
 }
 body header nav ul {
   display: flex;
   list-style: none;
 }
+body header nav ul .portfolio p {
+  font-size: 30px;
+  color: white;
+}
 body header nav ul li {
-  padding: 10px;
+  padding: 5px;
   margin: auto;
 }
 body header nav ul li a {
@@ -53,6 +58,16 @@ body main #aboutMe .foto_aboutMe {
 }
 body main #aboutMe .text_aboutMe {
   background-color: green;
+}
+@media (max-width: 798px) {
+  header nav ul .portfolio {
+    display: none;
+  }
+}
+@media (max-width: 415px) {
+  header nav ul .portfolio {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
