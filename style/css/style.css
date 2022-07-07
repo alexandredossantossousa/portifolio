@@ -1,16 +1,18 @@
 body {
   background-color: #262626;
+  margin: auto;
+  max-width: 1300px;
   display: grid;
   grid-template-rows: 10vh 100vh 10vh;
 }
 body header {
-  position: fixed;
-  margin: auto;
-  min-width: 1300px;
+  background-image: url(../../img/img1.jpeg);
+  width: 100%;
+  height: 400px;
 }
 body header nav {
+  position: fixed;
   margin: auto;
-  max-width: 1200px;
   width: 100%;
 }
 body header nav ul {
@@ -19,11 +21,11 @@ body header nav ul {
 }
 body header nav ul li {
   padding: 10px;
+  margin: auto;
 }
 body header nav ul li a {
   color: white;
   text-decoration: none;
-  margin-left: 200px;
   padding: 10px;
   font-size: 20px;
 }
@@ -32,6 +34,9 @@ body header nav ul li a:hover {
   border-radius: 5px;
   color: white;
 }
+body main {
+  margin-top: 200px;
+}
 body main section {
   background-color: #303030;
   max-width: 1000px;
@@ -39,6 +44,15 @@ body main section {
   width: 100%;
   margin: auto;
   margin-top: 100px;
+}
+body main #aboutMe {
+  display: flex;
+}
+body main #aboutMe .foto_aboutMe {
+  background-color: greenyellow;
+}
+body main #aboutMe .text_aboutMe {
+  background-color: green;
 }
 
 /*# sourceMappingURL=style.css.map */
