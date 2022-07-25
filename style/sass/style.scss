@@ -46,6 +46,30 @@ body{
                 }
         
             }
+            .menu{
+                background-color: $roxo600;
+                border-radius: 10px;
+                padding: 5px;
+                width: 400px;
+                display: grid;
+                float: right;
+                clip-path: circle(25px at 372px 40px);
+                ul{
+                    display: grid;
+                    text-align: center;
+                }
+                a{
+                    display: flex;
+                    justify-content: end;
+                    text-decoration: none;
+                    margin-right: 10px;
+                    margin-top: 20px;
+                    i{
+                        font-size: 30px;
+                        color: white;
+                    }
+                }
+            }
             
         }
     }
@@ -78,8 +102,6 @@ body{
                     background-color: green;
                 }
             }
-            
-
         }
     }
     footer{
@@ -92,7 +114,30 @@ body{
 
 // Media para web
 @media (min-width: 800px) and (max-width:2522px) {
-    
+    header{
+        nav{
+            p{
+                display: none;
+                
+            }
+            ul{
+                .portfolio{
+                    p{
+                        display: block;
+                        font-size: 30px;
+                        color: white;
+                    }
+                }
+                li{
+                    display: grid;
+                }
+            }
+            #menu{
+                display: none;
+            }
+        }
+        
+    }
 }
 
 
@@ -100,16 +145,30 @@ body{
 @media (max-width: 798px) {
     header{
         nav{
+            p{
+                display: block;
+                font-size: 30px;
+                color: white;
+                display: flex;
+                margin: 20px;
+            }
             ul{
+                .portfolio{
+                    p{
+                        display: block;
+                        font-size: 30px;
+                        color: white;
+                    }
+                }
                 li{
                     display: none;
                 }
-                .portfolio{
-                    display: none;
-                }
-                
+            }
+            #menu{
+                display: grid;
             }
         }
+        
     }
     main{
         margin-top: 200px;
@@ -142,9 +201,9 @@ body{
                 .portfolio{
                     display: none;
                 }
-                #menu{
-                    display: block;
-                }
+            }
+            .menu{
+                display: grid;
             }
         }
     }

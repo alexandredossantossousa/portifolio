@@ -40,6 +40,30 @@ body header nav ul li a:hover {
   border-radius: 5px;
   color: white;
 }
+body header nav .menu {
+  background-color: #8e24aa;
+  border-radius: 10px;
+  padding: 5px;
+  width: 400px;
+  display: grid;
+  float: right;
+  clip-path: circle(25px at 372px 40px);
+}
+body header nav .menu ul {
+  display: grid;
+  text-align: center;
+}
+body header nav .menu a {
+  display: flex;
+  justify-content: end;
+  text-decoration: none;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+body header nav .menu a i {
+  font-size: 30px;
+  color: white;
+}
 body main {
   margin-top: 200px;
 }
@@ -69,12 +93,40 @@ body main #aboutMe article .text_aboutMe {
   max-width: 480px;
   background-color: green;
 }
+@media (min-width: 800px) and (max-width: 2522px) {
+  header nav p {
+    display: none;
+  }
+  header nav ul .portfolio p {
+    display: block;
+    font-size: 30px;
+    color: white;
+  }
+  header nav ul li {
+    display: grid;
+  }
+  header nav #menu {
+    display: none;
+  }
+}
 @media (max-width: 798px) {
+  header nav p {
+    display: block;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    margin: 20px;
+  }
+  header nav ul .portfolio p {
+    display: block;
+    font-size: 30px;
+    color: white;
+  }
   header nav ul li {
     display: none;
   }
-  header nav ul .portfolio {
-    display: none;
+  header nav #menu {
+    display: grid;
   }
   main {
     margin-top: 200px;
@@ -98,8 +150,8 @@ body main #aboutMe article .text_aboutMe {
   header nav ul .portfolio {
     display: none;
   }
-  header nav ul #menu {
-    display: block;
+  header nav .menu {
+    display: grid;
   }
 }
 
