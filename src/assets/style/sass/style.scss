@@ -26,8 +26,30 @@ body{
         section{
             height: 100vh;
         }
-        #certificacoes{
-            background-color: crimson;
+        #sobre{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: whitesmoke;
+            background-image: url(../../img/background_about.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            article{
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                div{
+                    max-width: 500px;
+                    padding: 40px;
+                    picture{
+                        img{
+                            display: flex;
+                            margin: auto;
+                            height: 300px;
+                        }
+                    }
+                }
+            }
         }
         #projetos{
             background-color: blue;

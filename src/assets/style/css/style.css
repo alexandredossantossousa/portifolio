@@ -23,8 +23,28 @@ body header ul li a {
 body main section {
   height: 100vh;
 }
-body main #certificacoes {
-  background-color: crimson;
+body main #sobre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  background-image: url(../../img/background_about.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body main #sobre article {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+body main #sobre article div {
+  max-width: 500px;
+  padding: 40px;
+}
+body main #sobre article div picture img {
+  display: flex;
+  margin: auto;
+  height: 300px;
 }
 body main #projetos {
   background-color: blue;
