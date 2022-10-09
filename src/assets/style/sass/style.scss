@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: solid;
+        padding: 20px;
+        a{
+            text-decoration: none;
+        }
+        ul{
+            list-style: none;
+            display: flex;
+            li{
+                a{
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+    main{
+        section{
+            height: 100vh;
+        }
+        #sobre{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: whitesmoke;
+            background-image: url(../../img/background_about.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            article{
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                div{
+                    max-width: 500px;
+                    padding: 40px;
+                    picture{
+                        img{
+                            display: flex;
+                            margin: auto;
+                            height: 300px;
+                        }
+                    }
+                }
+            }
+        }
+        #projetos{
+            background-color: blue;
+        }
+        #Habilidades{
+            background-color: purple;
+        }
+        #contato{
+            background-color: green;
+        }
+    }
+}
