@@ -39,6 +39,13 @@ body{
                 justify-content: center;
                 flex-wrap: wrap;
                 div{
+                    h1{
+                        font-size: 50px;
+                        margin-bottom: 20px;
+                    }
+                    p{
+                        font-size: 18px;
+                    }
                     max-width: 500px;
                     padding: 40px;
                     picture{

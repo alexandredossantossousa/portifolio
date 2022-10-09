@@ -41,6 +41,13 @@ body main #sobre article div {
   max-width: 500px;
   padding: 40px;
 }
+body main #sobre article div h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+body main #sobre article div p {
+  font-size: 18px;
+}
 body main #sobre article div picture img {
   display: flex;
   margin: auto;
