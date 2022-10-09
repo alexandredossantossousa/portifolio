@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: solid;
+  padding: 20px;
+}
+body header a {
+  text-decoration: none;
+}
+body header ul {
+  list-style: none;
+  display: flex;
+}
+body header ul li a {
+  margin-left: 20px;
+}
+body main section {
+  height: 100vh;
+}
+body main #certificacoes {
+  background-color: crimson;
+}
+body main #projetos {
+  background-color: blue;
+}
+body main #Habilidades {
+  background-color: purple;
+}
+body main #contato {
+  background-color: green;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: solid;
+        padding: 20px;
+        a{
+            text-decoration: none;
+        }
+        ul{
+            list-style: none;
+            display: flex;
+            li{
+                a{
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+    main{
+        section{
+            height: 100vh;
+        }
+        #certificacoes{
+            background-color: crimson;
+        }
+        #projetos{
+            background-color: blue;
+        }
+        #Habilidades{
+            background-color: purple;
+        }
+        #contato{
+            background-color: green;
+        }
+    }
+}
